@@ -62,6 +62,69 @@
       "consecuentes": ["recomendar_python"],
       "prioridad": 1,
       "justificacion": "Python es el lenguaje mas usado para automatizar tareas cotidianas."
+    },
+    {
+      "nombre": "R10 - Python por poco tiempo y datos",
+      "antecedentes": ["necesita_lenguaje_simple", "quiere_datos"],
+      "consecuentes": ["recomendar_python"],
+      "prioridad": 3,
+      "justificacion": "Refuerza Python cuando hay poco tiempo y se quiere ciencia de datos."
+    },
+    {
+      "nombre": "R11 - Ruta rapida de Python",
+      "antecedentes": ["recomendar_python", "tiene_poco_tiempo"],
+      "consecuentes": ["ruta_rapida_python"],
+      "prioridad": 3,
+      "justificacion": "Si se recomienda Python y hay poco tiempo, se propone una ruta express."
+    },
+    {
+      "nombre": "R12 - Curso corto sugerido",
+      "antecedentes": ["ruta_rapida_python"],
+      "consecuentes": ["sugerir_curso_corto"],
+      "prioridad": 3,
+      "justificacion": "Una ruta express se concreta en un curso corto."
+    },
+    {
+      "nombre": "R13 - Curso web con Python",
+      "antecedentes": ["sugerir_curso_corto", "quiere_web"],
+      "consecuentes": ["recomendar_curso_html_python"],
+      "prioridad": 3,
+      "justificacion": "Si hay curso corto y el interes es web, se sugiere un curso que combine HTML con Python basico."
+    },
+    {
+      "nombre": "R14 - Advertencia para Flutter",
+      "antecedentes": ["recomendar_flutter", "computador_basico"],
+      "consecuentes": ["advertir_requiere_equipo"],
+      "prioridad": 3,
+      "justificacion": "Flutter puede ser pesado en equipos basicos, conviene advertirlo."
+    },
+    {
+      "nombre": "R15 - Proyecto portafolio web",
+      "antecedentes": ["recomendar_html_css", "quiere_web"],
+      "consecuentes": ["sugerir_proyecto_portafolio"],
+      "prioridad": 3,
+      "justificacion": "Si empieza con HTML/CSS y le interesa la web, un portafolio es el primer proyecto natural."
+    },
+    {
+      "nombre": "R16 - Publicar en GitHub",
+      "antecedentes": ["sugerir_proyecto_portafolio"],
+      "consecuentes": ["recomendar_publicar_en_github"],
+      "prioridad": 3,
+      "justificacion": "Un portafolio se valora mas si esta publicado en GitHub."
+    },
+    {
+      "nombre": "R17 - Automatizacion basica con Python",
+      "antecedentes": ["recomendar_python", "quiere_automatizar_tareas"],
+      "consecuentes": ["sugerir_automatizacion_basica"],
+      "prioridad": 3,
+      "justificacion": "Si se recomienda Python y quiere automatizar, se sugiere empezar con scripts simples."
+    },
+    {
+      "nombre": "R18 - Framework frontend",
+      "antecedentes": ["recomendar_javascript", "quiere_web"],
+      "consecuentes": ["sugerir_framework_frontend"],
+      "prioridad": 3,
+      "justificacion": "Si ya sabe JS y quiere web, el siguiente paso es un framework como React o Vue."
     }
   ]
 }
