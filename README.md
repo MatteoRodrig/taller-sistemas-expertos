@@ -3,7 +3,7 @@
 **Tema:** Recomendador de lenguaje de programación para principiantes.
 
 ## Integrantes
-- Nombre 1
+- Julian Mateo Rodriguez Diaz
 - Nombre 2
 - Nombre 3
 
