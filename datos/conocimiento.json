@@ -1,3 +1,25 @@
 {
-  "reglas": []
+  "reglas": [
+    {
+      "nombre": "R1 - Web para principiante",
+      "antecedentes": ["quiere_web", "es_principiante"],
+      "consecuentes": ["recomendar_html_css"],
+      "prioridad": 1,
+      "justificacion": "Si alguien quiere hacer paginas web y nunca ha programado, HTML y CSS son la base natural."
+    },
+    {
+      "nombre": "R2 - Web para quien ya programa",
+      "antecedentes": ["quiere_web", "ya_programa"],
+      "consecuentes": ["recomendar_javascript"],
+      "prioridad": 1,
+      "justificacion": "Si ya sabe programar y quiere hacer paginas web, JavaScript es el paso logico."
+    },
+    {
+      "nombre": "R3 - Movil para principiante",
+      "antecedentes": ["quiere_movil", "es_principiante"],
+      "consecuentes": ["recomendar_flutter"],
+      "prioridad": 1,
+      "justificacion": "Flutter permite crear apps moviles con un solo lenguaje, ideal para empezar."
+    }
+  ]
 }
