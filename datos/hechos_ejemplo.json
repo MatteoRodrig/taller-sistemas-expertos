@@ -1,1 +1,17 @@
-{}
+{
+  "caso_1": {
+    "quiere_web": true,
+    "es_principiante": true,
+    "tiene_poco_tiempo": true
+  },
+  "caso_2": {
+    "quiere_datos": true,
+    "le_gustan_matematicas": true,
+    "tiene_poco_tiempo": true,
+    "quiere_automatizar_tareas": true
+  },
+  "caso_3": {
+    "quiere_web": true,
+    "ya_programa": true
+  }
+}
