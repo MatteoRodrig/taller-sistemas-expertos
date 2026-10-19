@@ -4,8 +4,8 @@
 
 ## Integrantes
 - Julian Mateo Rodriguez Diaz
-- [Nombre Compañero 2]
-- [Nombre Compañero 3]
+- Marlon Alexander Mosquera
+- Kevvin Estiben Hernandez Jaramillo
 
 ## Descripción del Sistema
 Este es un sistema experto que utiliza encadenamiento hacia adelante (forward chaining) para recomendar un lenguaje de programación a personas que quieren iniciarse en la informática, basándose en sus intereses, tiempo disponible y equipo de cómputo.
