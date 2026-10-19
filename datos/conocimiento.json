@@ -20,6 +20,48 @@
       "consecuentes": ["recomendar_flutter"],
       "prioridad": 1,
       "justificacion": "Flutter permite crear apps moviles con un solo lenguaje, ideal para empezar."
+    },
+    {
+      "nombre": "R4 - Datos con base matematica",
+      "antecedentes": ["quiere_datos", "le_gustan_matematicas"],
+      "consecuentes": ["recomendar_python"],
+      "prioridad": 1,
+      "justificacion": "Python es el estandar de facto en ciencia de datos y encaja con perfiles matematicos."
+    },
+    {
+      "nombre": "R5 - Videojuegos con perfil visual",
+      "antecedentes": ["quiere_videojuegos", "le_gusta_visual"],
+      "consecuentes": ["recomendar_unity_csharp"],
+      "prioridad": 1,
+      "justificacion": "Unity con C# es la ruta mas visual y accesible para crear videojuegos."
+    },
+    {
+      "nombre": "R6 - Backend para quien ya programa",
+      "antecedentes": ["quiere_backend", "ya_programa"],
+      "consecuentes": ["recomendar_java"],
+      "prioridad": 1,
+      "justificacion": "Java es muy usado en backend empresarial y encaja con alguien que ya programa."
+    },
+    {
+      "nombre": "R7 - Poco tiempo disponible",
+      "antecedentes": ["tiene_poco_tiempo"],
+      "consecuentes": ["necesita_lenguaje_simple"],
+      "prioridad": 2,
+      "justificacion": "Con poco tiempo conviene un lenguaje de sintaxis sencilla."
+    },
+    {
+      "nombre": "R8 - Computador basico",
+      "antecedentes": ["computador_basico"],
+      "consecuentes": ["necesita_lenguaje_ligero"],
+      "prioridad": 2,
+      "justificacion": "Equipos con pocos recursos requieren lenguajes y entornos ligeros."
+    },
+    {
+      "nombre": "R9 - Automatizar tareas",
+      "antecedentes": ["quiere_automatizar_tareas"],
+      "consecuentes": ["recomendar_python"],
+      "prioridad": 1,
+      "justificacion": "Python es el lenguaje mas usado para automatizar tareas cotidianas."
     }
   ]
 }
